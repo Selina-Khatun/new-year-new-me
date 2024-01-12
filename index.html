@@ -1,39 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New year new me</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="max-w-7xl m-auto">
-    <header class="">
-      <div class=" ">
-        <div class="hero-content bg-[#f1f1f1] flex-col lg:flex-row">
-          <div class="w-[100%] "><img
-            src="./images/banner/banner11.png"
-             /></div>
-          <div class="bg-[#f1f1f1] text-right lg:p-[8%]">
-            <h1 class="text-5xl leading-tight font-bold">All Thinks Are Possible If You believe</h1>
-            <p class="py-6">
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
-            </p>
-            <button  class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
-              <span class="w-full h-full bg-gradient-to-br from-[#F15B22] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#F15B22] absolute"></span>
-              <span class="relative px-6 py-3 transition-all ease-out bg-[#F15B22] rounded-md group-hover:bg-opacity-0 duration-400">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New year new me</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <!-- fontawesome -->
+
+  <script src="https://kit.fontawesome.com/8acf9ee4cf.js" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- tailwindcss and daisyui -->
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="max-w-7xl m-auto">
+  <header class="bg-gradient-to-t from-[#F8F8F8] to-[#E7E5E6]">
+    <div class="hero ">
+      <div class="hero-content flex-col lg:flex-row">
+        <div class="lg:w-[100%] mx-auto"><img src="./images/banner/banner11.png" /></div>
+        <div class="text-right lg:p-[8%]">
+          <h1 class="lg:text-5xl leading-tight font-bold">
+            All Thinks Are Possible If You believe
+          </h1>
+          <p class="py-6">
+            There are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration in some form, by
+            injected humour, or randomised words
+          </p>
+          <button
+            class="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+            <span
+              class="w-full h-full bg-gradient-to-br from-[#F15B22] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#F15B22] absolute"></span>
+            <span
+              class="relative px-6 py-3 transition-all ease-out bg-[#F15B22] rounded-md group-hover:bg-opacity-0 duration-400">
               <span class="relative text-white">Contact Us</span>
-              </span>
-              </button>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <!-- My failures section starts from here -->
+
+    <section>
+      <div class="hero my-[5%]">
+        <div class="hero-content relative flex-col lg:flex-row">
+          <div class="bg-[#FCDED3]  rounded-full absolute lg:left-[3.95%] lg:bottom-5 lg:p-[20%]"></div>
+
+          <img src="./images/person.png" class="lg:max-w-sm rounded-lg z-10" />
+
+          <div class="lg:max-w-md  lg:pl-10 lg:mt-6">
+            <h2 class="text-5xl font-bold">My failures of previous year</h2>
+            <p class="py-6">
+              Contrary to popular belief, Lorem Ipsum is not simply random
+              text. It has roots in a piece of classical Latin literature from
+              45 BC, making it over 2000 years old. Richard McClintock.
+            </p>
+            <ul>
+              <li>
+                <i class="fa-solid fa-check text-[#16D887]"></i> Contrary to popular belief, is not simply.
+              </li>
+              <li>
+                <i class="fa-solid fa-check text-[#16D887]"></i> Contrary to popular belief.
+              </li>
+              <li></li><i class="fa-solid fa-check text-[#16D887]"></i> Contrary to popular , is not simply.</li>
+              <li></li><i class="fa-solid fa-check text-[#16D887]"></i> Contrary to popular belief, is not simply.</li>
+              <li><i class="fa-solid fa-check text-[#16D887]"></i> Contrary to popular simply.</li>
+            </ul>
           </div>
         </div>
       </div>
-    </header>
-    <main></main>
-    <footer></footer>
-  </body>
+    </section>
+    <section class="my-[5%] ">
+      <h2 class="text-5xl text-center font-bold">My Plans</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 my-[5%]  lg:grid-cols-4  ">
+        <div class="flex flex-col justify-center items-center ">
+          <img class="" src="./images/icons/web.png" alt="Web Development">
+          <h3 class="text-[#151414] font-bold">Web Development</h3>
+          <p class="text-[#737272]">I want to start</p>
+        </div>
+        <div class="flex flex-col justify-center items-center ">
+          <img src="./images/icons/web.png" alt="Web Development">
+          <h3 class="text-[#151414] font-bold">Web Development</h3>
+          <p class="text-[#737272]">I want to start</p>
+        </div>
+        <div class="flex flex-col justify-center items-center ">
+          <img src="./images/icons/web.png" alt="Web Development">
+          <h3 class="text-[#151414] font-bold">Web Development</h3>
+          <p class="text-[#737272]">I want to start</p>
+        </div>
+        <div class="flex flex-col justify-center items-center ">
+          <img src="./images/icons/web.png" alt="Web Development">
+          <h3 class="text-[#151414] font-bold">Web Development</h3>
+          <p class="text-[#737272]">I want to start</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-[90%] my-[5%] h-[60vh] mx-auto">
+
+      <div class="relative ">
+        <img class="absolute z-10" src="./images/gradient3.png" alt="">
+        <img class="absolute " src="./images/watch.png" alt="">
+        <div class="absolute text-white z-20 text-left md:py-[5%] pl-[5%] ">
+          <h2 class="lg:text-5xl font-bold mb-3">Awlays keep a positive <br> mindset</h2>
+          <button class=" btn lg:px-7  rounded-sm font-semibold text-[#F15B22]">Call Now</button>
+        </div>
+      </div>
+  
+
+    </section>
+
+  </main>
+
+  <div></div>
+    <footer class="footer p-10 bg-[#151414] ">
+      <div class="max-w-md pl-10">
+        <h2 class="text-5xl text-[#F8F8F8] font-bold">Future</h2>
+        <p class="py-3 text-[#FFF]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+        <p class="text-[#FFF]">Email : info@gmail.com</p>
+        <p class="text-[#FFF]">Phone : 01500 00 00 00</p>
+        <div class="grid mt-3 grid-flow-col gap-4">
+          <a><img src="./images/icons/fb.png" alt=""></a>
+          <a><img src="./images/icons/twitter.png" alt=""></a>
+          <a><img src="./images/icons/youtube.png" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <h2 class="font-bold text-xl py-2 text-[#FFF]">Subscribe</h2>
+        <input class="py-3 pr-10 pl-3 rounded-md bg-[#151414] border" type="email" name="email" id="" placeholder="Enter your email">
+
+        <button class=" btn  font-semibold text-[#F15B22]">Subscribe</button>
+      </div>
+    </footer>
+
+</body>
+
 </html>

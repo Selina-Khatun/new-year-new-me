@@ -2,8 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* header {
-  background: url("../images/banner/banner1.png") no-repeat;
+* {
+  font-family: 'Work Sans', sans-serif;
+}
 
-  background-size: contain;
-} */
+
